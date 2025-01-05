@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled User Form</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .form-container {
+            width: 40%;
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        input, textarea {
+            background-color: #E1E1E1;
+            border: none;
+            padding: 10px;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+
+        /* Style for the "Take Off" button */
+        input[type="submit"] {
+            background-color: rgba(198, 43, 80, 1);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 12px; /* Rounded corners */
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Drop shadow */
+            padding: 10px;
+            font-size: 1.2rem;
+            transition: all 0.3s ease; /* Smooth animation */
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgba(193, 3, 60, 1);
+            box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+            transform: translateY(-3px); /* Lift effect */
+        }
+
+        .image-container {
+            width: 40%;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/600px-FullMoon2010.jpg" alt="Moon Image">
+        </div>
+
+        <div class="form-container">
+            <h1>Welcome to the Moon</h1>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for = "Gender">Gender:</label>
+                <input type="text" id="gender" name="gender" required>
+
+                <label for="organization">Organisation:</label>
+                <input type="text" id="organization" name="organization" required>
+
+                <label for="occupation">Occupation:</label>
+                <input type="text" id="occupation" name="occupation" required>
+
+                <label for="quote">Quote:</label>
+                <textarea id="quote" name="quote" rows="4" required></textarea>
+
+                <input type="submit" value="Take Off">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
