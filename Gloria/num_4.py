@@ -7,3 +7,5 @@ def main():
         print(f"{celsius}\t{fahrenheit:.1f}")  
 
 main()
+name = input("what is your name: ")
+print(f"Hi {name}, welcome to Uganda!")
