@@ -1520,4 +1520,698 @@
 
 !DOCTYPE html>
 <html lang="en">
+<head><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Figma Design</title>
+    <style>
+        /* Basic styling for body */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgba(13, 32, 71, 1);
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .panels {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            gap: 20px;
+        }
+
+        .left-panel {
+            width: 100%;
+            text-align: left;
+            flex: 1;
+        }
+
+        .left-panel img {
+            width: 180px;
+            margin-bottom: 30px;
+        }
+
+        .left-panel p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .right-panel {
+            background-color: #1E4060;
+            border-radius: 20px;
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .right-panel p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .right-panel button {
+            background-color: #B3E5FC;
+            color: #0A2740;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 40px;
+        }
+
+        .right-panel button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tab-header {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #D9DFE9;
+            color: black;
+            padding: 10px 30px;
+            border-radius: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* Responsive behavior */
+        @media only screen and (max-width: 768px) {
+            .panels {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left-panel img {
+                width: 150px;
+                margin-bottom: 20px;
+            }
+
+            .left-panel p, .right-panel p {
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            .right-panel {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panels">
+            <div class="left-panel">
+                <img src="logo.svg" alt="Software Engineering Logo">
+                <p>The Moon Project is inspired by the first moon landing, <br> the astronauts marked their visit with the US flag. <br>Similarly, this project helps tech event attendees by collecting their information and printing a real-time badge to prove their attendance,<br> just like a "stamp" on the moon. It's a digital testament to participating in tech events,<br> making each attendee’s involvement official and memorable.</p>
+            </div>
+            
+            <div class="right-panel">
+                <div class="tab-header">The Moon</div>
+                <p>If you went to the moon,<br>wouldn't you want everyone to know?</p>
+                <button>Try Now!</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Figma Design</title>
+    <style>
+        /* Basic styling for body */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgba(13, 32, 71, 1);
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .panels {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            gap: 20px;
+        }
+
+        .left-panel {
+            width: 100%;
+            text-align: left;
+            flex: 1;
+        }
+
+        .left-panel img {
+            width: 180px;
+            margin-bottom: 30px;
+        }
+
+        .left-panel p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .right-panel {
+            background-color: #1E4060;
+            border-radius: 20px;
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .right-panel p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .right-panel button {
+            background-color: #B3E5FC;
+            color: #0A2740;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 40px;
+        }
+
+        .right-panel button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tab-header {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #D9DFE9;
+            color: black;
+            padding: 10px 30px;
+            border-radius: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* Responsive behavior */
+        @media only screen and (max-width: 768px) {
+            .panels {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left-panel img {
+                width: 150px;
+                margin-bottom: 20px;
+            }
+
+            .left-panel p, .right-panel p {
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            .right-panel {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panels">
+            <div class="left-panel">
+                <img src="logo.svg" alt="Software Engineering Logo">
+                <p>The Moon Project is inspired by the first moon landing, <br> the astronauts marked their visit with the US flag. <br>Similarly, this project helps tech event attendees by collecting their information and printing a real-time badge to prove their attendance,<br> just like a "stamp" on the moon. It's a digital testament to participating in tech events,<br> making each attendee’s involvement official and memorable.</p>
+            </div>
+            
+            <div class="right-panel">
+                <div class="tab-header">The Moon</div>
+                <p>If you went to the moon,<br>wouldn't you want everyone to know?</p>
+                <button>Try Now!</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Figma Design</title>
+    <style>
+        /* Basic styling for body */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgba(13, 32, 71, 1);
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .panels {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            gap: 20px;
+        }
+
+        .left-panel {
+            width: 100%;
+            text-align: left;
+            flex: 1;
+        }
+
+        .left-panel img {
+            width: 180px;
+            margin-bottom: 30px;
+        }
+
+        .left-panel p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .right-panel {
+            background-color: #1E4060;
+            border-radius: 20px;
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .right-panel p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .right-panel button {
+            background-color: #B3E5FC;
+            color: #0A2740;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 40px;
+        }
+
+        .right-panel button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tab-header {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #D9DFE9;
+            color: black;
+            padding: 10px 30px;
+            border-radius: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* Responsive behavior */
+        @media only screen and (max-width: 768px) {
+            .panels {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left-panel img {
+                width: 150px;
+                margin-bottom: 20px;
+            }
+
+            .left-panel p, .right-panel p {
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            .right-panel {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panels">
+            <div class="left-panel">
+                <img src="logo.svg" alt="Software Engineering Logo">
+                <p>The Moon Project is inspired by the first moon landing, <br> the astronauts marked their visit with the US flag. <br>Similarly, this project helps tech event attendees by collecting their information and printing a real-time badge to prove their attendance,<br> just like a "stamp" on the moon. It's a digital testament to participating in tech events,<br> making each attendee’s involvement official and memorable.</p>
+            </div>
+            
+            <div class="right-panel">
+                <div class="tab-header">The Moon</div>
+                <p>If you went to the moon,<br>wouldn't you want everyone to know?</p>
+                <button>Try Now!</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Figma Design</title>
+    <style>
+        /* Basic styling for body */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgba(13, 32, 71, 1);
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .panels {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            gap: 20px;
+        }
+
+        .left-panel {
+            width: 100%;
+            text-align: left;
+            flex: 1;
+        }
+
+        .left-panel img {
+            width: 180px;
+            margin-bottom: 30px;
+        }
+
+        .left-panel p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .right-panel {
+            background-color: #1E4060;
+            border-radius: 20px;
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .right-panel p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .right-panel button {
+            background-color: #B3E5FC;
+            color: #0A2740;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 40px;
+        }
+
+        .right-panel button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tab-header {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #D9DFE9;
+            color: black;
+            padding: 10px 30px;
+            border-radius: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* Responsive behavior */
+        @media only screen and (max-width: 768px) {
+            .panels {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left-panel img {
+                width: 150px;
+                margin-bottom: 20px;
+            }
+
+            .left-panel p, .right-panel p {
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            .right-panel {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panels">
+            <div class="left-panel">
+                <img src="logo.svg" alt="Software Engineering Logo">
+                <p>The Moon Project is inspired by the first moon landing, <br> the astronauts marked their visit with the US flag. <br>Similarly, this project helps tech event attendees by collecting their information and printing a real-time badge to prove their attendance,<br> just like a "stamp" on the moon. It's a digital testament to participating in tech events,<br> making each attendee’s involvement official and memorable.</p>
+            </div>
+            
+            <div class="right-panel">
+                <div class="tab-header">The Moon</div>
+                <p>If you went to the moon,<br>wouldn't you want everyone to know?</p>
+                <button>Try Now!</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Figma Design</title>
+    <style>
+        /* Basic styling for body */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgba(13, 32, 71, 1);
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .panels {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1200px;
+            gap: 20px;
+        }
+
+        .left-panel {
+            width: 100%;
+            text-align: left;
+            flex: 1;
+        }
+
+        .left-panel img {
+            width: 180px;
+            margin-bottom: 30px;
+        }
+
+        .left-panel p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .right-panel {
+            background-color: #1E4060;
+            border-radius: 20px;
+            flex: 1;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .right-panel p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .right-panel button {
+            background-color: #B3E5FC;
+            color: #0A2740;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-top: 40px;
+        }
+
+        .right-panel button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tab-header {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #D9DFE9;
+            color: black;
+            padding: 10px 30px;
+            border-radius: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* Responsive behavior */
+        @media only screen and (max-width: 768px) {
+            .panels {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left-panel img {
+                width: 150px;
+                margin-bottom: 20px;
+            }
+
+            .left-panel p, .right-panel p {
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            .right-panel {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panels">
+            <div class="left-panel">
+                <img src="logo.svg" alt="Software Engineering Logo">
+                <p>The Moon Project is inspired by the first moon landing, <br> the astronauts marked their visit with the US flag. <br>Similarly, this project helps tech event attendees by collecting their information and printing a real-time badge to prove their attendance,<br> just like a "stamp" on the moon. It's a digital testament to participating in tech events,<br> making each attendee’s involvement official and memorable.</p>
+            </div>
+            
+            <div class="right-panel">
+                <div class="tab-header">The Moon</div>
+                <p>If you went to the moon,<br>wouldn't you want everyone to know?</p>
+                <button>Try Now!</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+!DOCTYPE html>
+<html lang="en">
 <head>
